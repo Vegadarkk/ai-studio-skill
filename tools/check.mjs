@@ -13,8 +13,9 @@ import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const SKILL = 'scrolltide-scroll-builder';
-const skillDir = join(root, 'plugins', SKILL, 'skills', SKILL);
+const PLUGIN = 'ai-studio'; // what people install: /plugin install ai-studio@scrolltide
+const SKILL = 'scrolltide-ai-studio'; // the skill's own name, as claude.ai lists it
+const skillDir = join(root, 'plugins', PLUGIN, 'skills', SKILL);
 const problems = [];
 const fail = (msg) => problems.push(msg);
 const read = (p) => readFileSync(p, 'utf8');
@@ -89,9 +90,9 @@ for (const file of walk(root)) {
 
 // --- manifests
 const market = JSON.parse(read(join(root, '.claude-plugin', 'marketplace.json')));
-const plugin = JSON.parse(read(join(root, 'plugins', SKILL, '.claude-plugin', 'plugin.json')));
-if (plugin.name !== SKILL) fail(`plugin.json name is "${plugin.name}"`);
-if (!market.plugins?.some((p) => p.name === SKILL && p.source === `./plugins/${SKILL}`)) fail('marketplace.json doesn\'t list the plugin at ./plugins/' + SKILL);
+const plugin = JSON.parse(read(join(root, 'plugins', PLUGIN, '.claude-plugin', 'plugin.json')));
+if (plugin.name !== PLUGIN) fail(`plugin.json name is "${plugin.name}"`);
+if (!market.plugins?.some((p) => p.name === PLUGIN && p.source === `./plugins/${PLUGIN}`)) fail('marketplace.json doesn\'t list the plugin at ./plugins/' + PLUGIN);
 
 // --- the credit links carry the campaign tags, and the script parses
 if (!/utm_source=claude-skill/.test(skillMd)) fail('SKILL.md credit links lost their utm tags');

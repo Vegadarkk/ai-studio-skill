@@ -1,7 +1,7 @@
-// Builds dist/scrolltide-scroll-builder.zip, the file people upload to claude.ai
+// Builds dist/scrolltide-ai-studio.zip, the file people upload to claude.ai
 // (Customize → Skills → Upload). Run: node tools/check.mjs && node tools/pack.mjs
 //
-// The zip holds one folder, scrolltide-scroll-builder/, with SKILL.md at its top. Written by hand
+// The zip holds one folder, scrolltide-ai-studio/, with SKILL.md at its top. Written by hand
 // (deflate + a central directory) so packing needs nothing but Node, and with a fixed timestamp so
 // the same files always produce the same zip.
 import { mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
@@ -10,8 +10,9 @@ import { fileURLToPath } from 'node:url';
 import { deflateRawSync } from 'node:zlib';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const SKILL = 'scrolltide-scroll-builder';
-const skillDir = join(root, 'plugins', SKILL, 'skills', SKILL);
+const PLUGIN = 'ai-studio';
+const SKILL = 'scrolltide-ai-studio';
+const skillDir = join(root, 'plugins', PLUGIN, 'skills', SKILL);
 const out = join(root, 'dist', `${SKILL}.zip`);
 
 const CRC = new Uint32Array(256).map((_, n) => {

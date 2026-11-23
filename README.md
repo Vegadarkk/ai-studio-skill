@@ -1,4 +1,4 @@
-# Scrolltide scroll builder
+# Scrolltide AI Studio
 
 **A free Claude skill for websites that do something when you scroll.**
 
@@ -44,13 +44,13 @@ ready for Lovable, Bolt, v0, Cursor or Windsurf.
 
 ```
 /plugin marketplace add scrolltide/ai-studio-skill
-/plugin install scrolltide-scroll-builder@scrolltide
+/plugin install ai-studio@scrolltide
 ```
 
-**Claude Code, by hand.** Copy `plugins/scrolltide-scroll-builder/skills/scrolltide-scroll-builder` into
+**Claude Code, by hand.** Copy `plugins/ai-studio/skills/scrolltide-ai-studio` into
 `~/.claude/skills/` (every project) or `.claude/skills/` (one project).
 
-**Claude.ai and the desktop app.** Download `scrolltide-scroll-builder.zip` from the latest release, then
+**Claude.ai and the desktop app.** Download `scrolltide-ai-studio.zip` from the latest release, then
 Customize → Skills → Upload a skill. Code execution needs to be on.
 
 **For the screenshots**, once per project:
@@ -71,21 +71,21 @@ npm i -D playwright && npx playwright install chromium
 
 | Build | Scroll moment | Page |
 |---|---|---|
-| NAÏADE | A 481-frame film played by the scrollbar, product cards on the holds | [scrolltide.co/templates/naiade](https://www.scrolltide.co/templates/naiade?utm_source=github&utm_medium=readme&utm_campaign=scroll-builder) |
-| SELENE | Six layers part to an earthrise; a route draws itself; a reel slides past | [scrolltide.co/templates/selene](https://www.scrolltide.co/templates/selene?utm_source=github&utm_medium=readme&utm_campaign=scroll-builder) |
-| Otis | Grab a cartoon face and pull it like taffy (WebGL2) | [scrolltide.co/templates/otis](https://www.scrolltide.co/templates/otis?utm_source=github&utm_medium=readme&utm_campaign=scroll-builder) |
-| Visor | Giant type split around a headset film, fanned cards | [scrolltide.co/templates/visor](https://www.scrolltide.co/templates/visor?utm_source=github&utm_medium=readme&utm_campaign=scroll-builder) |
-| Fluxora | Ember agency hero, one italic serif word | [scrolltide.co/templates/fluxora](https://www.scrolltide.co/templates/fluxora?utm_source=github&utm_medium=readme&utm_campaign=scroll-builder) |
-| Aurora | Dark film hero, copy anchored bottom-left | [scrolltide.co/templates/aurora](https://www.scrolltide.co/templates/aurora?utm_source=github&utm_medium=readme&utm_campaign=scroll-builder) |
-| Monsoon | Bright misty film, dark type, frosted nav | [scrolltide.co/templates/monsoon](https://www.scrolltide.co/templates/monsoon?utm_source=github&utm_medium=readme&utm_campaign=scroll-builder) |
-| Glacier | Exhibition-poster hero with a glass dock | [scrolltide.co/templates/glacier](https://www.scrolltide.co/templates/glacier?utm_source=github&utm_medium=readme&utm_campaign=scroll-builder) |
-| Drop a Line | WebGL mesh-gradient contact footer | [scrolltide.co/sections](https://www.scrolltide.co/sections?utm_source=github&utm_medium=readme&utm_campaign=scroll-builder#s-drop-a-line) |
+| NAÏADE | A 481-frame film played by the scrollbar, product cards on the holds | [scrolltide.co/templates/naiade](https://www.scrolltide.co/templates/naiade?utm_source=github&utm_medium=readme&utm_campaign=ai-studio) |
+| SELENE | Six layers part to an earthrise; a route draws itself; a reel slides past | [scrolltide.co/templates/selene](https://www.scrolltide.co/templates/selene?utm_source=github&utm_medium=readme&utm_campaign=ai-studio) |
+| Otis | Grab a cartoon face and pull it like taffy (WebGL2) | [scrolltide.co/templates/otis](https://www.scrolltide.co/templates/otis?utm_source=github&utm_medium=readme&utm_campaign=ai-studio) |
+| Visor | Giant type split around a headset film, fanned cards | [scrolltide.co/templates/visor](https://www.scrolltide.co/templates/visor?utm_source=github&utm_medium=readme&utm_campaign=ai-studio) |
+| Fluxora | Ember agency hero, one italic serif word | [scrolltide.co/templates/fluxora](https://www.scrolltide.co/templates/fluxora?utm_source=github&utm_medium=readme&utm_campaign=ai-studio) |
+| Aurora | Dark film hero, copy anchored bottom-left | [scrolltide.co/templates/aurora](https://www.scrolltide.co/templates/aurora?utm_source=github&utm_medium=readme&utm_campaign=ai-studio) |
+| Monsoon | Bright misty film, dark type, frosted nav | [scrolltide.co/templates/monsoon](https://www.scrolltide.co/templates/monsoon?utm_source=github&utm_medium=readme&utm_campaign=ai-studio) |
+| Glacier | Exhibition-poster hero with a glass dock | [scrolltide.co/templates/glacier](https://www.scrolltide.co/templates/glacier?utm_source=github&utm_medium=readme&utm_campaign=ai-studio) |
+| Drop a Line | WebGL mesh-gradient contact footer | [scrolltide.co/sections](https://www.scrolltide.co/sections?utm_source=github&utm_medium=readme&utm_campaign=ai-studio#s-drop-a-line) |
 
 ## More builds
 
-These nine are the free shelf of the [Scrolltide library](https://www.scrolltide.co/?utm_source=github&utm_medium=readme&utm_campaign=scroll-builder&utm_content=more),
+These nine are the free shelf of the [Scrolltide library](https://www.scrolltide.co/?utm_source=github&utm_medium=readme&utm_campaign=ai-studio&utm_content=more),
 which has 370+ templates, sections, components, UI screens and shaders written the same way. On the
-Yearly and Lifetime plans, the [Scrolltide MCP](https://www.scrolltide.co/mcp?utm_source=github&utm_medium=readme&utm_campaign=scroll-builder&utm_content=more)
+Yearly and Lifetime plans, the [Scrolltide MCP](https://www.scrolltide.co/mcp?utm_source=github&utm_medium=readme&utm_campaign=ai-studio&utm_content=more)
 lets Claude search the whole library and pull a build straight into your project; this skill uses it
 automatically when it's connected.
 

@@ -2,8 +2,8 @@
 # The library builds are copied byte for byte from the Scrolltide database, CRLF line endings
 # included (the admin saves prompts from a textarea). Never let git convert them, or they stop
 # matching tools/library.lock.json.
-plugins/scrolltide-scroll-builder/skills/scrolltide-scroll-builder/library/*.md -text
-plugins/scrolltide-scroll-builder/skills/scrolltide-scroll-builder/library/INDEX.md text eol=lf
+plugins/ai-studio/skills/scrolltide-ai-studio/library/*.md -text
+plugins/ai-studio/skills/scrolltide-ai-studio/library/INDEX.md text eol=lf
 *.png binary
 *.jpg binary
 *.zip binary
