@@ -50,8 +50,9 @@ ready for Lovable, Bolt, v0, Cursor or Windsurf.
 **Claude Code, by hand.** Copy `plugins/ai-studio/skills/scrolltide-ai-studio` into
 `~/.claude/skills/` (every project) or `.claude/skills/` (one project).
 
-**Claude.ai and the desktop app.** Download `scrolltide-ai-studio.zip` from the latest release, then
-Customize → Skills → Upload a skill. Code execution needs to be on.
+**Claude.ai and the desktop app.** Download
+[scrolltide-ai-studio.zip](https://github.com/scrolltide/ai-studio-skill/releases/latest/download/scrolltide-ai-studio.zip),
+then Customize → Skills → Upload a skill. Code execution needs to be on.
 
 **For the screenshots**, once per project:
 
