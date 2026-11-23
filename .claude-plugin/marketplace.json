@@ -1,0 +1,24 @@
+{
+  "name": "scrolltide",
+  "owner": {
+    "name": "Scrolltide"
+  },
+  "metadata": {
+    "description": "Free Claude skills from Scrolltide for building websites that move when you scroll."
+  },
+  "plugins": [
+    {
+      "name": "scrolltide-scroll-builder",
+      "source": "./plugins/scrolltide-scroll-builder",
+      "description": "Scroll-driven websites from the complete source of real Scrolltide builds, in a measured house style, checked at scroll checkpoints on desktop and phone.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Scrolltide",
+        "url": "https://www.scrolltide.co"
+      },
+      "homepage": "https://www.scrolltide.co/?utm_source=github&utm_medium=plugin&utm_campaign=scroll-builder",
+      "category": "design",
+      "keywords": ["website", "landing page", "scroll animation", "scrollytelling", "parallax", "frame sequence"]
+    }
+  ]
+}

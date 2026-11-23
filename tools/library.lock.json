@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "otis",
+    "name": "Otis",
+    "kind": "template",
+    "category": "Hero Section",
+    "url": "https://www.scrolltide.co/templates/otis",
+    "bytes": 58693,
+    "sha256": "c294aa91e9ce9dbf77b2c8a981601be07d980ada9f063cc2a6f5b639d61ab392",
+    "updatedAt": "2026-11-01T04:51:20.884Z"
+  },
+  {
+    "slug": "selene",
+    "name": "SELENE",
+    "kind": "template",
+    "category": "Landing Page",
+    "url": "https://www.scrolltide.co/templates/selene",
+    "bytes": 62179,
+    "sha256": "39bae03b2b22e3a8d447318f2b57f78533ca1041bffba278ec1c903718206f2f",
+    "updatedAt": "2026-10-17T13:21:20.970Z"
+  },
+  {
+    "slug": "naiade",
+    "name": "NAÏADE",
+    "kind": "template",
+    "category": "Landing Page",
+    "url": "https://www.scrolltide.co/templates/naiade",
+    "bytes": 74677,
+    "sha256": "b09a77b03c3e2d6d1bc523b00a569f658207724823cc679f538948875f1e1c1d",
+    "updatedAt": "2026-11-19T05:09:51.580Z"
+  },
+  {
+    "slug": "glacier",
+    "name": "Glacier",
+    "kind": "template",
+    "category": "Hero Section",
+    "url": "https://www.scrolltide.co/templates/glacier",
+    "bytes": 18759,
+    "sha256": "d5ab16d893c9a42cedc94b709268dd555b074f299013db15eaa39ff6c1c85cd3",
+    "updatedAt": "2026-09-15T08:41:18.596Z"
+  },
+  {
+    "slug": "fluxora",
+    "name": "Fluxora",
+    "kind": "template",
+    "category": "Landing Page",
+    "url": "https://www.scrolltide.co/templates/fluxora",
+    "bytes": 46353,
+    "sha256": "dc47ec3a90d40824214ae00b591160ba3696b8e6b33c3f9eba02d5713c50f5dc",
+    "updatedAt": "2026-09-15T08:40:48.636Z"
+  },
+  {
+    "slug": "visor",
+    "name": "Visor",
+    "kind": "template",
+    "category": "Hero Section",
+    "url": "https://www.scrolltide.co/templates/visor",
+    "bytes": 56075,
+    "sha256": "9df55427a54cd100baec75e1ee9f5b1b6d21f6f82a4aded2c0e975f7baa86ba2",
+    "updatedAt": "2026-10-17T13:22:00.947Z"
+  },
+  {
+    "slug": "monsoon",
+    "name": "Monsoon",
+    "kind": "template",
+    "category": "Hero Section",
+    "url": "https://www.scrolltide.co/templates/monsoon",
+    "bytes": 13744,
+    "sha256": "32130fe6cce05eb5db8cc857772a693ce25accb2b889448457319209c1f00389",
+    "updatedAt": "2026-09-15T08:42:09.834Z"
+  },
+  {
+    "slug": "aurora",
+    "name": "Aurora",
+    "kind": "template",
+    "category": "Hero Section",
+    "url": "https://www.scrolltide.co/templates/aurora",
+    "bytes": 15191,
+    "sha256": "7d9ec3dea2e4bb03b1065587cc78b39276d22dd5d1fff6b8fce5cd084d995d9e",
+    "updatedAt": "2026-09-15T08:41:35.986Z"
+  },
+  {
+    "slug": "drop-a-line",
+    "name": "Drop a Line",
+    "kind": "section",
+    "category": "Footer",
+    "url": "https://www.scrolltide.co/sections#s-drop-a-line",
+    "bytes": 81166,
+    "sha256": "c25894704e4cd5ca93ad9cb98a11d93f238e95be907dedbf0ca4ac8924fc6fe9",
+    "updatedAt": "2026-11-06T22:53:36.809Z"
+  }
+]

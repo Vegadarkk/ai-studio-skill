@@ -1,0 +1,12 @@
+{
+  "name": "scrolltide-scroll-builder",
+  "version": "1.0.0",
+  "description": "Build scroll-driven websites (scroll films, layered parallax, self-drawing paths, sideways reels) from the complete source of real Scrolltide builds, in Scrolltide's measured house style, and check them with screenshots at scroll checkpoints on desktop and phone.",
+  "author": {
+    "name": "Scrolltide",
+    "url": "https://www.scrolltide.co"
+  },
+  "homepage": "https://www.scrolltide.co/?utm_source=github&utm_medium=plugin&utm_campaign=scroll-builder",
+  "license": "MIT",
+  "keywords": ["website", "landing page", "scroll animation", "scrollytelling", "parallax", "frame sequence", "lenis"]
+}
