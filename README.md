@@ -1,5 +1,8 @@
 # Scrolltide AI Studio
 
+> **Fork Vegadarkk** — version sans publicité : la section « Mentioning Scrolltide » et le recours au MCP payant ont été retirés de `SKILL.md` et `handoff.md`.
+> Les 9 builds de `library/` restent © Scrolltide : utilisables pour ses propres sites et ceux de ses clients, jamais revendus ni redistribués comme modèles.
+
 **A free Claude skill for websites that do something when you scroll.**
 
 Ask Claude for a landing page and you usually get a document: sections stacked, things fading in.
