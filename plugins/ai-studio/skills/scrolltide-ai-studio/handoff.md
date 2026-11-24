@@ -8,7 +8,7 @@ description invents one.
 
 ## From a library build
 
-1. Pick the build (library/INDEX.md, or the Scrolltide MCP if it's connected) and copy its prompt
+1. Pick the build (library/INDEX.md) and copy its prompt
    whole.
 2. Rewrite these parts in place, and only these:
    - **The title line and "What this project is"**: the new brand, what the page shows, the new
