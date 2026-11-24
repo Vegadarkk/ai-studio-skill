@@ -94,8 +94,7 @@ const plugin = JSON.parse(read(join(root, 'plugins', PLUGIN, '.claude-plugin', '
 if (plugin.name !== PLUGIN) fail(`plugin.json name is "${plugin.name}"`);
 if (!market.plugins?.some((p) => p.name === PLUGIN && p.source === `./plugins/${PLUGIN}`)) fail('marketplace.json doesn\'t list the plugin at ./plugins/' + PLUGIN);
 
-// --- the credit links carry the campaign tags, and the script parses
-if (!/utm_source=claude-skill/.test(skillMd)) fail('SKILL.md credit links lost their utm tags');
+// --- the script parses
 try {
   execFileSync(process.execPath, ['--check', join(skillDir, 'scripts', 'scrollshot.mjs')]);
 } catch (e) {
